@@ -62,19 +62,26 @@ h1 {
     ul {
         position: relative;
         li {
+            position: relative;
             margin-left: 20px;
             height: 60px;
             display: flex;
             align-items: center;
-            list-style: none;
+            list-style: none;   
             font-size: 20px;
             padding: 12px 8px 12px 50px;
             user-select: none;
             cursor: pointer;
             justify-content: space-between;
-            p {
-                margin-right: 40px;
-                text-decoration: none;
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                width: 40px;
+                height: 40px;
             }
         }
         li::before {
@@ -84,7 +91,7 @@ h1 {
             width: 28px;
             border-radius: 50%;
             border: 1px solid lightgrey;
-            left: 20px;
+            left: 10px;
         }
         .checked {
             text-decoration: line-through;
