@@ -15,14 +15,13 @@ body {
 
 h1 {
     color: #188FA7;
-    margin-bottom: 100px;
-    font-size: 30px;
-    font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
 
 .container {
     background-color: #fff;
-    width: 60%;
+    width: 40%;
     border-radius: 25px;
     main {
         border-top-left-radius: 25px;
@@ -30,7 +29,7 @@ h1 {
         /* background: linear-gradient(35deg,
             lightgrey,lightgray,grey
         ); */
-        padding: 20px;  
+        padding: 40px;  
         display: flex;
         justify-content: space-around;
         input {
@@ -60,6 +59,7 @@ h1 {
         }
     }
     ul {
+        padding: 20px;
         position: relative;
         li {
             position: relative;
